@@ -1,0 +1,41 @@
+body{
+    background: rgb(70,69,252);
+background: linear-gradient(90deg, rgba(70,69,252,1) 0%, rgba(199,0,240,1) 34%, rgba(193,3,241,1) 66%, rgba(70,69,252,1) 100%);
+text-align: center;
+color: aliceblue;
+font-family: 'Exo', sans-serif;
+text-transform: capitalize;
+}
+button{
+    background-color:  rgba(199,0,240,1);
+    color: rgb(4, 4, 214);
+    border: 2px double black;
+    font-size: 20px;
+    padding: 10px;
+    margin: 18px
+}
+canvas{
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 35px;
+    animation-name: luzinha;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#pedrinho{
+    position:absolute;
+    bottom:75px;
+    width: 100%;
+    text-align: center;
+}
+@keyframes luzinha {
+    from{
+        box-shadow: 1px 1px 30px blue;
+    }
+    to{
+        box-shadow: 1px 1px 40px rgb(251, 3, 205);
+    } 
+}
+#jefferson{
+    color: black;
+}
